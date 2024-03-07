@@ -1,0 +1,106 @@
+h1 {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  padding-top: 15px;
+}
+
+input {
+  color: #74989c;
+}
+
+ul {
+  list-style: none;
+}
+
+.weatherapp {
+  max-width: 600px;
+  min-height: 200px;
+  margin: 50px auto;
+  border: 2px solid #e7f6f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.searchBar {
+  margin-bottom: 35px;
+}
+
+.degree {
+  line-height: 56px;
+  font-size: 48px;
+  color: #2c3333;
+  vertical-align: top;
+}
+
+.percentages {
+  color: #74989c;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0px;
+}
+
+.conditions {
+  color: #74989c;
+  font-size: 14px;
+  text-align: right;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #2c3333;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature {
+  font-size: 12px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+#celciusFarenheit {
+  display: inline-block;
+  padding-left: 6px;
+  padding-top: 15px;
+}
+
+#celciusFarenheit #floatDegrees {
+  color: #2c3333;
+  font-size: 16px;
+  line-height: 56px;
+  position: relative;
+  top: -12px;
+}
+
+#description:first-letter {
+  text-transform: capitalize;
+}
+
+#country {
+  text-align: right;
+}
+
+#farenheit {
+  color: #74989c;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+}
+
+#farenheit:hover {
+  color: #2c3333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#floatDegrees .active {
+  color: #2c3333;
+  cursor: default;
+  text-decoration: none;
+}
